@@ -49,10 +49,6 @@ cd codsoft_task1
 ```markdown
 ## 📸 Screenshots / Demo
 
-## 📸 Screenshots / Demo
-
--## 📸 Screenshots / Demo
-
 ### Game Start
 [![Game Screenshot 1](screenshots/screenshot1.png)]
 
@@ -74,6 +70,7 @@ cd codsoft_task1
 ## 🙏 Acknowledgements
 Thanks to **CodSoft** for providing this internship opportunity.  
 This task helped me strengthen my web development, UI design, and AI logic implementation skills.
+
 
 
 
