@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Modern Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+<script src="https://unpkg.com/lucide@latest"></script>
+
+</head>
+
+<body>
+  <!-- Setup modal before game starts -->
+  <div id="setup" class="overlay visible">
+    <div class="card setup-card">
+      <h1>Let’s Play Tic Tac Toe</h1>
+
+      <div class="form-row">
+        <label>Player X name</label>
+        <input id="pXName" type="text" placeholder="Player X" maxlength="12">
+      </div>
+
+      <div class="form-row">
+        <label>Player O name</label>
+        <input id="pOName" type="text" placeholder="Player O" maxlength="12">
+      </div>
+
+      <div class="form-row">
+        <label>Mode</label>
+        <select id="modeSelect">
+          <option value="pvp">Player vs Player</option>
+          <option value="pvc">Player vs Computer</option>
+        </select>
+      </div>
+
+      <div class="form-row" id="aiOptions">
+        <label>AI difficulty</label>
+        <select id="aiDiff">
+          <option value="hard">Unbeatable (Minimax)</option>
+          <option value="easy">Easy (Random)</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label>Who plays first</label>
+        <select id="firstSelect">
+          <option value="X">Player X</option>
+          <option value="O">Player O</option>
+          <option value="AI">AI (if AI mode)</option>
+        </select>
+      </div>
+
+      <div class="form-row range-row">
+        <button id="startBtn" class="btn primary">Start Game</button>
+        <button id="resetAllBtn" class="btn ghost">Reset Scores</button>
+      </div>
+
+      <p class="muted">Tip: On mobile the layout stacks. Toggle dark/light after starting.</p>
+    </div>
+  </div>
+
+  <!-- Winner popup overlay -->
+  <div id="winnerOverlay" class="overlay" style="display:none;">
+    <div class="card setup-card" id="winnerCard" style="text-align:center;">
+      <h1 id="winnerText" style="font-size:32px; margin:6px 0;">Player X wins!</h1>
+      <div id="celebrationName"
+        style="font-size:54px;font-weight:900;margin:6px 0; color:var(--accent); opacity:0; transform:scale(.9); transition:all .35s ease;">
+      </div>
+      <div style="margin-top:12px;">
+        <button id="playAgainBtn" class="btn primary">Play Again</button>
+        <button id="closeWinnerBtn" class="btn ghost">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main app container -->
+  <div id="app" class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-logo">
+          <div class="circle">
+            <span class="x">X</span>
+            <span class="o">O</span>
+          </div>
+        </div>
+        Tic<span>Tac</span>Toe</div>
+      <!-- HTML -->
+      <div class="tagline">Master the X & O Show!</div>
+
+      <div class="controls">
+        <button id="themeToggle" class="icon-btn" aria-label="toggle theme">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button id="infoBtn" class="icon-btn" title="Reset board">
+            <i class="fas fa-rotate-right"></i>
+        </button>
+    </div>
+    
+    </header>
+
+    <main class="main">
+      <section class="board-wrap">
+        <div id="board" class="board" aria-label="tic tac toe board">
+          <!-- 9 cells created by JS -->
+        </div>
+      </section>
+
+      <aside class="panel">
+        <div class="scoreboard card">
+          <h3>Scoreboard</h3>
+          <div class="scores">
+            <div class="score">
+              <div class="label">X</div>
+              <div id="scoreX" class="value">0</div>
+            </div>
+            <div class="score">
+              <div class="label">Draws</div>
+              <div id="scoreD" class="value">0</div>
+            </div>
+            <div class="score">
+              <div class="label">O</div>
+              <div id="scoreO" class="value">0</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="status card">
+          <h4>Current</h4>
+          <div id="turnIndicator" class="turn">Waiting</div>
+          <div class="names">
+            <div class="small">X: <span id="nameX">Player X</span></div>
+            <div class="small">O: <span id="nameO">Player O</span></div>
+          </div>
+        </div>
+
+        <div class="actions card">
+          <button id="undoBtn" class="btn">Undo</button>
+          <button id="restartBtn" class="btn primary">Restart Round</button>
+          <button id="fullResetBtn" class="btn ghost">Reset Board & Scores</button>
+        </div>
+      </aside>
+    </main>
+
+    
+  </div>
+
+  <!-- Canvas for confetti (absolute) -->
+  <canvas id="confettiCanvas"></canvas>
+
+  <script src="script.js" defer></script>
+
+</body>
+
+</html>
