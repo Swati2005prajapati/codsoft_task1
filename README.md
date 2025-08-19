@@ -54,13 +54,12 @@ You can directly play the game online using this link:
 -## 📸 Screenshots / Demo
 
 ### Game Start
-[![Game Screenshot 1](screenshots/screenshot1.png)](screenshots/screenshot1.png)
-
-### Player vs Player
-[![Game Screenshot 2](screenshots/screenshot2.png)](screenshots/screenshot2.png)
+[![Game Screenshot 1](screenshots/screenshot1.png)]
 
 ### Player vs Computer
-[![Game Screenshot 3](screenshots/screenshot3.png)](screenshots/screenshot3.png)
+[![Game Screenshot 2](screenshots/screenshot2.png)]
+
+[![Game Screenshot 3](screenshots/screenshot3.png)]
 
 
 
@@ -75,4 +74,5 @@ You can directly play the game online using this link:
 ## 🙏 Acknowledgements
 Thanks to **CodSoft** for providing this internship opportunity.  
 This task helped me strengthen my web development, UI design, and AI logic implementation skills.
+
 
