@@ -28,20 +28,20 @@ I have built a **Modern Tic Tac Toe Web Application** with advanced features suc
 ## 🎯 How to Run
 
 ### 🔹 Run Locally
-1. Download or clone the repository:
-   ```bash
-   git clone https://github.com/Swati2005prajapati/codsoft_task1.git
-   
-2.Open index.html in any modern browser (Chrome, Edge, Firefox).
+## 🚀 How to Run
 
-3.Start playing 🎉
+### 🔹 Option 1: Play Online (Best)
+👉 [Play Tic Tac Toe Online](https://swati2005prajapati.github.io/codsoft_task1/)
 
-🔹 Run Online (GitHub Pages)
+### 🔹 Option 2: View Source Code on GitHub
+👉 [GitHub Repository](https://github.com/Swati2005prajapati/codsoft_task1)
 
-You can directly play the game online using this link:
+### 🔹 Option 3: Run Locally
+Clone this repo to your computer and open `index.html` in your browser:
 
-👉 Play Tic Tac Toe Online
-
+```bash
+git clone https://github.com/Swati2005prajapati/codsoft_task1.git
+cd codsoft_task1
 
 ---
 
@@ -74,5 +74,6 @@ You can directly play the game online using this link:
 ## 🙏 Acknowledgements
 Thanks to **CodSoft** for providing this internship opportunity.  
 This task helped me strengthen my web development, UI design, and AI logic implementation skills.
+
 
 
