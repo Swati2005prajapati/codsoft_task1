@@ -62,7 +62,7 @@ cd codsoft_task1
 ---
 
 ## 🔗 Links
-- 📂 GitHub Repo: (will be added after upload)  
+- 📂 GitHub Repo: https://github.com/Swati2005prajapati/codsoft_task1  
 - 🎥 LinkedIn Post: (link to task completion video)  
 - 🌐 CodSoft: [CodSoft Internship](https://codsoft.in)  
 
@@ -70,6 +70,7 @@ cd codsoft_task1
 ## 🙏 Acknowledgements
 Thanks to **CodSoft** for providing this internship opportunity.  
 This task helped me strengthen my web development, UI design, and AI logic implementation skills.
+
 
 
 
