@@ -1,7 +1,7 @@
 # CodSoft Task-1: Modern Tic Tac Toe Game 🎮
 
 ## 📌 Overview
-This project is part of my **CodSoft AI/ML Internship (August 2025)**.  
+This project is part of my **CodSoft AI Internship (August 2025)**.  
 I have built a **Modern Tic Tac Toe Web Application** with advanced features such as Player vs Player, Player vs Computer (AI), score tracking, and celebration effects.
 
 ## 🛠️ Technologies Used
@@ -67,15 +67,16 @@ cd codsoft_task1
 
 ## 🔗 Links
 
-* 📂 GitHub Repo: [codsoft\_task1](https://github.com/Swati2005prajapati/codsoft_task1)
 * 🎥 LinkedIn Post: (link to task completion video)
 * 🌐 CodSoft: [CodSoft Internship](https://codsoft.in)
+- 👩‍💻 [LinkedIn Profile](https://www.linkedin.com/in/swati-prajapati-b723b7368)
+- 📂 [GitHub Profile](https://github.com/Swati2005prajapati)
 
----
 
-## 🙏 Acknowledgements
+
 
 Thanks to **CodSoft** for providing this internship opportunity.
 This task helped me strengthen my web development, UI design, and AI logic implementation skills.
+
 
 
