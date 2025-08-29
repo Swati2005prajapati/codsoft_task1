@@ -67,7 +67,7 @@ cd codsoft_task1
 
 ## 🔗 Links
 
-* 🎥 LinkedIn Post: (link to task completion video)
+* 🎥 LinkedIn Post: [watch](https://www.linkedin.com/posts/swati-prajapati-b723b7368_codsoft-internship-frontend-activity-7367158738903826432-aWUz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFsvFMYB-i94v-AX-MHmzi4zE9B3jE4I-jg)
 * 🌐 CodSoft: [CodSoft Internship](https://codsoft.in)
 - 👩‍💻 [LinkedIn Profile](https://www.linkedin.com/in/swati-prajapati-b723b7368)
 - 📂 [GitHub Profile](https://github.com/Swati2005prajapati)
@@ -77,6 +77,7 @@ cd codsoft_task1
 
 Thanks to **CodSoft** for providing this internship opportunity.
 This task helped me strengthen my web development, UI design, and AI logic implementation skills.
+
 
 
 
